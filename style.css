@@ -1,0 +1,101 @@
+/*Basic Stuff*/
+
+body {
+  background-color:black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: DeadSpace;
+  font-size: 100px;
+}
+
+div {
+  width:1000px;
+  margin:auto;
+  background-color:#303030;
+  border-radius: 25px;
+  border-color: white;
+  border-style: double;
+  border-width: 5px;
+}
+
+p{
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-family: "Lucida Console";
+    font-size: 15px;
+}
+
+h2{
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-family: "Lucida Console";
+    font-size: 40px;
+}
+
+h3{
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-family: "Lucida Console";
+    font-size: 25px;
+}
+
+a{
+    margin: 10px;
+    text-align: center;
+    color: #61D0FF;
+    font-family: "Lucida Console";
+    font-size: 15px;
+}
+
+@font-face {
+  font-family: DeadSpace;
+  src: url(assets/DeadSpaceTitleFont.ttf);
+}
+
+.gradient-glow {
+   /* Outer glow */
+  text-shadow:
+    0 0 40px rgba(255, 255, 255, 0.6);
+
+  /* Gradient */
+  background: linear-gradient(to top, #BDBDBD, white);
+  -webkit-background-clip: text; /* for Chrome, Safari */
+  -webkit-text-fill-color: transparent; /* makes the text transparent so the background shows through */
+  background-clip: text; /* standard property */
+  color: transparent; /* fallback */
+}
+ /* Style the navbar */
+    .navbar {
+      background-color: #333;
+      padding: 10px;
+      display: flex;               /* use flexbox */
+      justify-content: center;     /* center horizontally */
+    }
+
+    /* Navbar links (buttons) */
+    .navbar a {
+      color: white;
+      text-align: center;
+      padding: 14px 14px;
+      text-decoration: none;
+      font-size: 16px;
+      font-family: "Lucida Console";
+    }
+
+    /* Hover effect */
+    .navbar a:hover {
+      background-color: #575757;
+      border-radius: 15px;
+    }
+
+
+    .gradient-box {
+/* Gradient background */
+  background: linear-gradient(to top, #3f3f3f, #7e7e7e);
+    }
