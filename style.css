@@ -2,6 +2,11 @@
 
 body {
   background-color:black;
+  margin: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -95,7 +100,7 @@ a{
     }
 
 
-    .gradient-box {
+.gradient-box {
 /* Gradient background */
-  background: linear-gradient(to top, #3f3f3f, #7e7e7e);
-    }
+  background: linear-gradient(to top, #3f3f3f, #6d6d6d);
+}
