@@ -103,4 +103,12 @@ a{
 .gradient-box {
 /* Gradient background */
   background: linear-gradient(to top, #3f3f3f, #6d6d6d);
+
+ 
 }
+
+footer{
+    color: white;
+    font-family: "Lucida Console";
+    background-color: black;
+  }
